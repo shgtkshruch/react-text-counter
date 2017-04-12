@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TextCounter from './App';
 import './index.css';
 
 ReactDOM.render(
-  <App text="test" />,
+  <TextCounter text="React" />,
   document.getElementById('root')
 );
